@@ -8,7 +8,7 @@
 
   header {
    display: flex;
-   justify-content: space-between;
+      justify-content: space-between;
    padding: 0 30px;
  }
 body{
@@ -83,7 +83,7 @@ header{
 }
 header nav{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: column wrap;
 }
 
 header nav ul{
