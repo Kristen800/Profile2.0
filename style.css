@@ -94,6 +94,9 @@ header nav ul{
   padding-top: 10px;
 }
 
+header nav ul li{
+  width: 100px;
+}
 header nav ul li a{
   text-decoration: none;
   margin: 20px 20px 0px 10px;
