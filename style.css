@@ -81,6 +81,10 @@ header{
   padding: 20px;
   display: flex;
 }
+header nav{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 header nav ul{
   display: flex;
