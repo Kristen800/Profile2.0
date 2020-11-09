@@ -15,6 +15,7 @@ body{
   margin-left:200px;
   margin-right:200px;
 }
+}
 /* ---  Contact Form Design --- */
 
  form {
@@ -26,49 +27,15 @@ body{
  form textarea {
    width: 100%;
    margin-bottom: 20px;
-   background-color: #DEE2E6;
+   background-color: #E9ECEF;
  }
 
  form textarea {
    height: 160px;
-   background-color: #DEE2E6;
+   background-color: #E9ECEF;
  }
 
-}
 
-/*responsive CSS*/
-.group img{
-  width:100%;
-}
-
-.group{
-  display:flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: space-evenly;
-  margin-bottom: 0px;
-}
-
-.item{
-  flex:1;
-  margin:10px;
-}
-
-.item-double{
-  flex:2;
-  margin:10px;
-
-}
-
-
-/*style for the body element*/
-body{
-  background-color:#CED4DA;
-  font-family:"Helvetica", "Arial";
-  color:#212529;
-}
-
-/*style for the header element, including nav links*/
 header{
   font-family:"Helvetica","Arial";
   font-variant:small-caps;
@@ -81,29 +48,25 @@ header{
   padding: 20px;
   display: flex;
 }
-header nav{
-  display: flex;
-  flex-wrap: column wrap;
-}
 
 header nav ul{
   display: flex;
+  flex-wrap: wrap;
   padding-left: 0;
   list-style: none;
   margin-top: 25px;
-  padding-top: 10px;
+  justify-content: space-between;
 }
 
-header nav ul li{
-  width: 100px;
-}
 header nav ul li a{
   text-decoration: none;
-  margin: 20px 20px 0px 10px;
+  margin: 20px 20px 10px 10px;
 }
 
-header nav ul li:last-child a {
-  margin-right: 0;
+body{
+  background-color:#CED4DA;
+  font-family:"Helvetica", "Arial";
+  color:#212529;
 }
 
 header nav ul li a:link{
@@ -118,18 +81,12 @@ header nav ul li a:hover{
    color:#E9ECEF;
  }
 
-/*style for all horizontal rule lines. This ones my favorite element.*/
  hr{
   height:12px;
   border:0;
   box-shadow: inset 0 12px 12px -12px #212529;
   margin-top: 40px;
-  margin-bottom:100px;
-}
-
-.space{
-  margin-top:200px;
-  margin-bottom: 200px;
+  margin-bottom:40px;
 }
 
 h2{
@@ -145,10 +102,23 @@ h3{
   font-family: "Helvetica", "Arial";
   color:#495057;
   font-size:20px;
-  padding-right:25px;
+
   text-decoration: underline;
   text-decoration-color: #495057;
 }
+
+.contact h3{
+  font-family:"Helvetica","Arial";
+  font-variant:small-caps;
+  background-color: #343A40;
+  color:#ADB5BD;
+  text-decoration-color: #ADB5BD;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 
 h4{
   text-align:center;
@@ -156,14 +126,24 @@ h4{
   color:#495057;
 }
 
+p{
+  text-align: center;
+  font-family:"Helvetica", "Arial";
+  color:#495057;
+  font-size: 16px;
+}
+
+.left{
+  text-align:left;
+  padding-left:20px;
+}
 ul{
-  display: flex;
-  flex:column;
-  list-style-type: circle;
-  justify-content: space-evenly;
-  justify-items: center;
-  list-style-position: inside;
-  line-height: 1.5;
+
+  padding-left: 20px;
+  padding-right:20px;
+  list-style-type: square;
+  list-style-position:inside;
+  line-height:1.5;
 }
 
 ol{
@@ -180,33 +160,8 @@ ol{
 li{
   color:#495057;
   font-family:"Helvetica","Arial";
-  text-align:center;
 }
 
-p{
-  text-align: center;
-  font-family:"Helvetica", "Arial";
-  color:#495057;
-  font-size: 16px;
-}
-
-.contact h3{
-  font-family:"Helvetica","Arial";
-  font-variant:small-caps;
-  background-color: #343A40;
-  color:#ADB5BD;
-  text-decoration-color: #ADB5BD;
-  text-align: center;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-.wrapper{
-  width:100%;
-}
-
-/*form style*/
 form button {
     padding: 10px 16px;
     border-radius: 10px;
@@ -229,7 +184,7 @@ div.contactLinks{
   color:#ADB5BD;
   background-color:#343A40;
   font-size: 16px;
-  word-spacing:100px;
+  word-spacing:50px;
   text-align:center;
 }
 
@@ -245,10 +200,32 @@ a:hover{
    color:#E9ECEF;
  }
 
- /*style for the footer, and my wee small copyright*/
+/*style for the footer, and my wee small copyright*/
 footer p{
   color:#343A40;
   font-family: "Helvetica", "Arial";
   font-size: 11.5px;
   text-align: right;
+}
+/*responsive CSS*/
+.group img{
+  width:100%;
+}
+.group{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: space-evenly;
+  margin-bottom: 0px;
+}
+
+.item{
+  flex:1;
+  margin:10px;
+}
+
+.item-double{
+  flex:2;
+  margin:10px;
+
 }
