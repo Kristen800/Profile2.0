@@ -25,6 +25,11 @@ ol li{
   margin: 25px;
 }
 
+img{
+  display: flex;
+  flex-direction: row;
+}
+
 }
 /* ---  Contact Form Design --- */
 
