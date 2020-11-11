@@ -27,7 +27,6 @@ ol li{
 
 img{
   display: flex;
-  flex-direction: row;
   width:200px;
   height:200px;
 }
