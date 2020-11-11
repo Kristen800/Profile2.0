@@ -28,7 +28,8 @@ ol li{
 img{
   display: flex;
   flex-direction: row;
-  width:auto;
+  width:300px;
+  height:300px;
 }
 
 }
